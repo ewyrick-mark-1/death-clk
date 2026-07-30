@@ -1,1 +1,6 @@
-build/
+# ignore large build files
+build
+
+# ignore vim swap files
+*.swp
+*.swo/
