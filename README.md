@@ -6,10 +6,12 @@ C project running on a rasberry pi 0 w (v1.1) running Rasberry Pi OS Lite. Commu
 
 Output format:
 
+```
 ┌──────────────────┐
 | Thurs XXXXXXXXXX | //XXXXXXXXXX is the countdown in seconds to set DEATH_DAY
 | 07/30/26 05:40PM |
 └──────────────────┘
+```
 
 external libraries:
 - lgpio.h : comes standard with pios, install dev headers via sudo apt install liblgpio-dev
