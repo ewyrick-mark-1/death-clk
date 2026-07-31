@@ -8,7 +8,7 @@ Output format:
 
 ┌──────────────────┐
 | Thurs XXXXXXXXXX | //XXXXXXXXXX is the countdown in seconds to set DEATH_DAY
-| 07/30/26 5:40 PM |
+| 07/30/26 05:40PM |
 └──────────────────┘
 
 external libraries:
