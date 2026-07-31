@@ -4,6 +4,13 @@ eek!
 
 C project running on a rasberry pi 0 w (v1.1) running Rasberry Pi OS Lite. Communicates with a 16x2 Character oled IC module (SEH1602-A) to display a countdown (in seconds) until a specified date.
 
+Output format:
+
+┌──────────────────┐
+| Thurs XXXXXXXXXX | //XXXXXXXXXX is the countdown in seconds to set DEATH_DAY
+| 07/30/26 5:40 PM |
+└──────────────────┘
+
 external libraries:
 - lgpio.h : comes standard with pios, install dev headers via sudo apt install liblgpio-dev
 
