@@ -1,6 +1,12 @@
+#include .env variables
+-include .env
+export
+
+
+#standard Makefile stuff
 CC = gcc
-CFLAGS = -Wall -g
-LIB_FLAGS = -llgpio
+CFLAGS = -Wall -g -DDEATH_DAY=$(DEATH_DAY)
+LIB_FLAGS = -llgpio	#lgpio is a special lib flag
 BUILD_DIR = build
 SRC_DIR = src
 
