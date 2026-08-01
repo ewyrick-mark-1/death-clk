@@ -56,9 +56,11 @@ int main() {
 		
 		char *am_or_pm = (hour > 12) ? "PM" : "AM";
 
-		time_t time_left = (long long int)DEATH_DAY - raw_time;	
-		printf("%-6s%10lld\n", weekdays[wday], time_left);
-		printf("%02d/%02d/%02d %02d:%02d%2s\n", month, mday, year, hour%12, min, am_or_pm);
+		time_t time_left = (long long int)DEATH_DAY - raw_time;
+		printf("┌──────────────────┐\n");	
+		printf("| %-6s%10lld |\n", weekdays[wday], time_left);
+		printf("| %02d/%02d/%02d %02d:%02d%2s |\n", month, mday, year, hour%12, min, am_or_pm);
+		printf("└──────────────────┘\n");
 		//sleep 1s
 		sleep(1);
 	}
